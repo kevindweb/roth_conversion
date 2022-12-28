@@ -14,13 +14,15 @@
             by
             Fiduciary Wealth Advisors</a>
     </div>
-    <!-- <h2 style="margin-bottom: 1.5rem;">Calculate your earnings and more</h2>
-    <p>In 1997, the Roth IRA was introduced. Since then, many people have converted all or a portion of their existing
-        traditional IRAs to a Roth IRAs, where interest earned may be completely tax-free. Is this a good option? A
-        conversion has advantages and disadvantages that should be carefully considered before a decision is made. This
-        convert IRA to Roth calculator estimates the change in total net worth, at retirement, if you convert a
-        traditional IRA into a Roth IRA.</p>
-    </div> -->
+    <br />
+    <p style="text-align: center;">If your Traditional IRA’s value suffered a decline in 2022, this could be a good time
+        to consider converting your Traditional IRA into a Roth IRA. By converting to a Roth IRA and paying the taxes on
+        the conversion now out of other non-IRA assets, you can allow your IRA portfolio to recover in an account that
+        is free from tax in the future. Thus, all of your market gains in your Roth IRA from the point of conversion
+        forward will be income tax free. Please feel free to use this calculator to model different scenarios. Note that
+        this calculator assumes zero state income tax, so if your state has an income tax, that will affect the
+        calculation.</p>
+    </section>
     <div class="row">
         <div class="col-md-12 col-lg-4 col-sm-3 mx-auto">
             <div class="card">
@@ -41,7 +43,7 @@
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text tooltips top"
-                                tooltips-text="Non-deductible definition">Non-deductible
+                                tooltips-text="Investment amount you have already paid taxes on (after-tax contributions)">Non-deductible
                                 contributions</span>
                         </div>
                         <div class="input-group-prepend">
@@ -61,8 +63,9 @@
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text tooltips top" tooltips-text="Desired age at retirement">Age at
-                                retirement</span>
+                            <span class="input-group-text tooltips top"
+                                tooltips-text="Desired age when you will take funds from your account">Age at
+                                withdrawal</span>
                         </div>
                         <input type="text" name="AGE_ATR" class="form-control" placeholder="65" aria-label=""
                             aria-describedby="basic-addon1" value="65">
@@ -118,7 +121,7 @@
                     </div>
                     <button type="button" class="btn btn-info" onClick="calculate()">Calculate</button>
                 </div>
-                <p>Roth IRA Return After Taxes: $<span id="netRothReturn"></span></p>
+                <p>Roth IRA: $<span id="netRothReturn"></span></p>
                 <p>Traditional IRA After Taxes: $<span id="netTraditionalReturn"></span></p>
                 <p>Traditional IRA + Investment of Taxes Saved: $<span id="netTotalReturn"></span></p>
             </div>
@@ -138,11 +141,10 @@
                 <section class="">
                     <div class="row">
                         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                            <h6 class="text-uppercase mb-4 font-weight-bold">
-                                Fiduciary Wealth Advisors
-                            </h6>
                             <p>
-                                Scott needs to add something here about the company
+                                Fiduciary Wealth Advisors is a boutique wealth management firm offering investment
+                                management services and financial planning services for individuals and entities with at
+                                least $1,000,000 to invest.
                             </p>
                         </div>
 
