@@ -115,7 +115,6 @@ function split(left, right, parts) {
     }
 
     result.add(Math.ceil(right));
-    console.log(result);
     return result;
 }
 
