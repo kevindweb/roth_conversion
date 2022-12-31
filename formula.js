@@ -19,17 +19,17 @@ function calculate() {
         datasets: [
             {
                 label: "Traditional IRA Post-Tax",
-                backgroundColor: "green",
-                data: []
-            },
-            {
-                label: "Roth IRA",
                 backgroundColor: "blue",
                 data: []
             },
             {
+                label: "Roth IRA",
+                backgroundColor: "green",
+                data: []
+            },
+            {
                 label: "Traditional IRA + Tax Savings Invested",
-                backgroundColor: "red",
+                backgroundColor: "purple",
                 data: []
             }
         ]
